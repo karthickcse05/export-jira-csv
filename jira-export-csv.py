@@ -10,7 +10,7 @@ JIRA_URL = 'https://www.jira.com/rest/api/latest'
 # Jira user credentials (incl. API token)
 JIRA_ACCOUNT = ('mail id ', 'jira token')
 # Jira project ID (short)
-JIRA_PROJECT = 'ENSTEN'
+JIRA_PROJECT = 'project ID'
 # Jira Query (JQL)
 JQL = 'project=%s+AND+resolution=Unresolved+ORDER+BY+createdDate+ASC&maxResults=20' % JIRA_PROJECT
 # +AND+issueType=Epic
